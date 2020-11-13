@@ -3,6 +3,8 @@ The project uses a [nonlinear autoregressive exogenous (NARX)](https://en.wikipe
 
 ![alt text](https://github.com/GeorgiosEtsias/Time-series-prediction-NARX/blob/master/Photos/BusBelfast.jpg)
 
+Figure 1: A bus in the streets of Belfast ([source](https://www.irishnews.com/news/northernirelandnews/2016/11/16/news/bus-route-in-west-belfast-remains-suspended-due-to-anti-social-behaviour-785974/))
+
 Five different MATLAB scripts were included in the repository:
 
 # Code description 
@@ -10,6 +12,9 @@ Five different MATLAB scripts were included in the repository:
 **Data pre-processing**
 
 Data pre-processing is conducted in [DataPreProcessingBus2.m](https://github.com/GeorgiosEtsias/Time-series-prediction-NARX/blob/master/DataPreProcessingBus2.m). The data are modified in order to create a single training dataset, containing 22 of the 25 time series. Three datasets, one from each corresponding driving cycle, were not involved in training, instead they were used to evaluate NARX’s generalization ability. 
+
+![alt text](https://github.com/GeorgiosEtsias/Time-series-prediction-NARX/blob/master/Data/AllData.png)
+Figure 2: Exhaust fume temperature timeseries of the utlized dataset
 
 **Training**
 
