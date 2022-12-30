@@ -9,6 +9,26 @@ Five different MATLAB scripts were included in the repository:
 
 # Code description 
 
+**Repository structure**
+```
+┌── Data/
+│ │── AllData.png
+│ └── Bus2Data.mat
+│── OptimallyTrainedANNs/
+│ │── netbest.mat
+│ └── netcbest.mat 
+│── Photos/
+│ └── BusBelfast.jpg
+│── Results/
+│ └── Prediction.png
+│── DataPreProcessingBus2.m
+│── Prediction.m
+│── PredictionOpenClose.m
+│── README.md
+│── TrainANN.m
+└── TrainANNsinLoop.m
+```
+
 **Data pre-processing**
 
 Data pre-processing is conducted in [DataPreProcessingBus2.m](https://github.com/GeorgiosEtsias/Time-series-prediction-NARX/blob/master/DataPreProcessingBus2.m). The data are modified in order to create a single training dataset, containing 22 of the 25 time series. Three datasets, one from each corresponding driving cycle, were not involved in training, instead they were used to evaluate NARX’s generalization ability. 
