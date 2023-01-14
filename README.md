@@ -5,9 +5,9 @@ The project uses a [nonlinear autoregressive exogenous (NARX)](https://en.wikipe
 
 Figure 1: A bus in the streets of Belfast ([source](https://www.irishnews.com/news/northernirelandnews/2016/11/16/news/bus-route-in-west-belfast-remains-suspended-due-to-anti-social-behaviour-785974/))
 
-Five different MATLAB scripts were included in the repository:
-
 # Code description 
+
+Five different MATLAB scripts were included in the repository:
 
 **Repository structure**
 ```
